@@ -1,0 +1,24 @@
+import styled from 'styled-components';
+
+export const Container = styled.div`
+
+`;
+
+export const Header = styled.header`
+   background-color: darkblue;
+   height: 150px;
+   text-align: center;
+`;
+
+export const HeaderText = styled.h1`
+   color: #fff;
+   padding-top: 30px;
+`;
+
+export const Body = styled.body`
+   margin: 20px auto;
+   max-width: 980px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+`;
